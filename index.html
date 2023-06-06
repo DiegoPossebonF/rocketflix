@@ -2,20 +2,45 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon" />
     <title>Rocketflix</title>
 </head>
 
 <body>
-    <button id="change-movie">Movie</button>
+    <header>
+        <img id="logo" src="./assets/shuffle.svg" alt="Logo Rocketflix" />
+        Não sabe o que assistir?
+    </header>
+    <main>
+        <div class="movie">
+            <img class="poster" src="" />
+            <div class="info">
+                <div class="title">
 
-    <div id="movie">
-        
-    </div>
+                </div>
+                <div class="description">
+
+                </div>
+            </div>
+
+        </div>
+        <button id="bt-find">
+            <img src="./assets/shuffle.svg" alt="Logo Rocketflix" />
+            Encontrar filme
+        </button>
+        <p class="description">
+            Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.
+        </p>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="main.js"></script>
