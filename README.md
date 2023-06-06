@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> RocketFlix - Desafio Discover </h1>
 
 <p align="center">
@@ -36,3 +37,6 @@ Utilizar a API do themoviedb.org para exibir um filme aleatório sempre que clic
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1241111569594636891).
 
+=======
+# rocketflix
+>>>>>>> e3d1f83b3596120e71e26a48f45a0903d4a9c077
