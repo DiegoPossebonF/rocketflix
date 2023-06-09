@@ -11,8 +11,6 @@ body * {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background: var(--background);
   background-size: contain;
   background-repeat: no-repeat;
@@ -35,6 +33,7 @@ header {
   font-size: 40px;
   font-weight: bold;
   padding: 15px;
+  margin-top: 126px;
 }
 
 header img {
@@ -114,11 +113,9 @@ main button img {
   .movie {
     flex-direction: column;
   }
-
   .title {
     text-align: center !important;
   }
-
   .description {
     text-align: center !important;
   }
